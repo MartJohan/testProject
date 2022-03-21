@@ -1,0 +1,9 @@
+.centered{
+    margin: auto;
+    width: 30%;
+    border: 3px solid rgb(211, 223, 211);
+    padding: 10px;
+    margin-top:100px;
+    text-align:center;
+    background-color: white;
+}

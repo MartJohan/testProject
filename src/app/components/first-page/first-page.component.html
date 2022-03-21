@@ -1,0 +1,22 @@
+<div class="centered">
+    <p>
+    <mat-form-field appearance="outline">
+        <mat-label>First name</mat-label>
+        <input matInput placeholder="Placeholder" id="firstname">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+    </p>
+    <p>
+    <mat-form-field appearance="outline">
+        <mat-label>Last name</mat-label>
+        <input matInput placeholder="Placeholder" id="lastname">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+    </p>
+    <button mat-button color="primary" (click)="submit()">Submit</button>
+</div>
+<div class="centered">
+    <button mat-button color="primary" (click)="getUsers()">Get data</button>
+    <app-second-page [users] = "usersfromDb"></app-second-page>
+</div>
+  
